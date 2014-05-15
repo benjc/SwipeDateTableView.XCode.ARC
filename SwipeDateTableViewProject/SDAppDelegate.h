@@ -1,5 +1,5 @@
 //
-//  SDTVViewController.h
+//  SDAppDelegate.h
 //  SwipeDateTableViewProject
 //
 //  Created by Benji on 07/05/2014.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDTVViewController : UIViewController
+@interface SDAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

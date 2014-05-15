@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "SDTVAppDelegate.h"
+#import "SDAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([SDTVAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([SDAppDelegate class]));
     }
 }
